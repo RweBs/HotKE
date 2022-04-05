@@ -16,7 +16,13 @@ dglke_dist_train --path ~/my_task  --ip_config ~/my_task/ip_config.txt \
 
 
 explanation:
-'--push_step x' synchronize hot embeddings with parameter servers every x rounds;
-'--topk y' number of hot embeddings in each worker;
+'--push_step x' synchronize hot embeddings with parameter servers every x rounds
+'--topk y' number of hot embeddings in each worker (if the 'ent_topk' and 'rel_topk' are not set, the hot embeddings are selected according to the frequency)
+'--ent_topk' number of entity hot embeddings in each worker
+'--rel_topk' number of relation hot embeddings in each worker
 '--dynamic_prefetch z' z=0 (using constant partial stale), z=1 (using dynamic partial stale)
 ```
+
+## Citation
+
+* Sicong Dong, Xupeng Miao, Pengkai Liu, Xin Wang, Bin Cui, Jianxin Li. Communication-Efficient Knowledge Graph Embedding Training with Hot-Embedding CachingThe 38th IEEE International Conference on Data Engineering (ICDE 2022, Research Track).
