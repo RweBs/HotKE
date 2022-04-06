@@ -25,4 +25,4 @@ explanation:
 
 ## Citation
 
-* Sicong Dong, Xupeng Miao, Pengkai Liu, Xin Wang, Bin Cui, Jianxin Li. Communication-Efficient Knowledge Graph Embedding Training with Hot-Embedding CachingThe 38th IEEE International Conference on Data Engineering (ICDE 2022, Research Track).
+* Sicong Dong, Xupeng Miao, Pengkai Liu, Xin Wang, Bin Cui, Jianxin Li. HET-KG: Communication-Efficient Knowledge Graph Embedding Training via Hotness-Aware Cache. The 38th IEEE International Conference on Data Engineering (ICDE 2022, Research Track).
